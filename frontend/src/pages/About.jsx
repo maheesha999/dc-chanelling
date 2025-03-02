@@ -10,10 +10,10 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-12'>
         <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
-          <p>Welcome to Contact Doctor, your trusted partner in healthcare. Our mission is to revolutionize the way you access medical care by bridging the gap between patients and doctors with just a few clicks.<br/><br/>
-At Contact Doctor, we aim to provide a seamless and efficient platform for booking doctor appointments, managing prescriptions, and staying on top of your health needs. Whether you're seeking specialized care or routine consultations,
+          <p>Welcome to Mediora, your trusted partner in healthcare. Our mission is to revolutionize the way you access medical care by bridging the gap between patients and doctors with just a few clicks.<br/><br/>
+At Mediora, we aim to provide a seamless and efficient platform for booking doctor appointments, managing prescriptions, and staying on top of your health needs. Whether you're seeking specialized care or routine consultations,
  we connect you with top healthcare professionals, ensuring convenience and quality care at your fingertips.</p>
-          <p>Contact Doctor is commited to excellence in healthcare technology. you can:</p>
+          <p>Mediora is commited to excellence in healthcare technology. you can:</p>
           <ul>
               <li>Schedule appointments anytime, anywhere.</li>
               <li>Keep track of your medical records and prescriptions.</li>
@@ -21,8 +21,8 @@ At Contact Doctor, we aim to provide a seamless and efficient platform for booki
           </ul>
 
           <b className='text-gray-800'>Our Vision</b>
-          <p>Our Vision at Contact Doctor is to making healthcare accessible, reliable, and patient-centric.
-             Let Contact Doctor take care of the logistics so you can focus on what matters most—your well-being.</p>
+          <p>Our Vision at Mediora is to making healthcare accessible, reliable, and patient-centric.
+             Let Mediora take care of the logistics so you can focus on what matters most—your well-being.</p>
         </div>
       </div>
       <div className='texl-xl my-4'>
