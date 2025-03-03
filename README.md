@@ -1,4 +1,4 @@
-# 🌿 Haritha Plantations: ITPM Project 🌿
+# 🌿 Mediora: ITPM Project 🌿
 
 ### Team Members:
 
@@ -13,8 +13,5 @@
 ✨ We are excited to present our project! ✨
 
 
-🚀 **Haritha Plantations** is a comprehensive ITPM project developed by our dedicated team. We aim to revolutionize the plantation industry with our innovative solutions and user-friendly interface.
-
-
-
+Welcome to our Smart Healthcare Platform, where you can seamlessly book doctor appointments, schedule checkups from tailored health packages, and consult specialists from home. Our system ensures lifelong medical records, tracking your vaccinations, lab reports, and health history from birth to adulthood. Doctors and admins efficiently manage appointments, review cases, and update patient details, while lab reports are securely uploaded for easy access. Experience a smart, connected, and comprehensive healthcare journey—right at your fingertips! 🚀💙
 **Thank you for visiting our repository!** ❤️
