@@ -13,5 +13,5 @@
 ✨ We are excited to present our project! ✨
 
 
-Welcome to our Smart Healthcare Platform, where you can seamlessly book doctor appointments, schedule checkups from tailored health packages, and consult specialists from home. Our system ensures lifelong medical records, tracking your vaccinations, lab reports, and health history from birth to adulthood. Doctors and admins efficiently manage appointments, review cases, and update patient details, while lab reports are securely uploaded for easy access. Experience a smart, connected, and comprehensive healthcare journey—right at your fingertips! 🚀💙
+Welcome to our **Smart Ayurvedic Healthcare Platform**, where you can effortlessly book appointments with experienced Ayurvedic doctors. Patients can log in, explore suitable doctor categories, and find the **nearest specialist** based on location. Our platform also offers an **herbal store**, allowing you to purchase authentic Ayurvedic products directly from our inventory. Stay connected with your health by tracking your appointments, while administrators efficiently manage doctor profiles, appointments, and patient records. Experience a seamless, traditional healing journey—**personalized, accessible, and powered by Ayurveda!** 🌿💚 
 **Thank you for visiting our repository!** ❤️
