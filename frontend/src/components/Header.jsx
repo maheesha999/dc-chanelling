@@ -3,28 +3,30 @@ import { assets } from '../assets/assets'
 
 const Header = () => {
   return (
-    <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-12 lg:px-18'>
+    <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20'>
       {/*--left--*/}
-      <div className='md:w-1/2 flex flex-col items-start justify-center gap-8 py-10 m-auto md:py-[10vw] md:mb-[-30px] relative z-10'>
+      <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
 
-        <p className='text-4xl md:text-5xl lg:text-6xl text-purple font-semibold leading-tight md:leading-tight lg:leading-tight'>
-  Consult With Trusted<br/> Ayurvedic Experts
-</p>
+        <p className='text-3xl md:text-4xl lg:text-5xl text-purple font-semibold leading-tight md:leading-tight lg:leading-tight'>
 
-            <div className='flex flex-col md:flex-row items-center gap-1 text-grey text-sm font-light'>
+            Consult With Trusted<br/>Ayurvedic Doctors
+        </p>
+            <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
             <img className='w-28' src={assets.group_profiles}  alt='' />
 
             <p>Browse our extensive list of trusted Ayurvedic doctors, <br className='hidden sm:block'/> find the nearest specialist and<br className='hidden sm:block'/>book your appointment hassle-free.</p>
+
             </div>
             <a href="#speciality" className='flex items-center gap-2 bg-black px-8 py-3 rounded-full text-white text-sm m-auto md:m-0 hover:scale-150 transition-all duration-300'>
             Book appointment <img className='w-3' src={assets.arrow_icon} alt="" />
             </a>
       </div>
-      <div className="md:w-1/2 relative">
-  <img className="w-[105%] md:w-[90%] h-auto rounded-lg mt-20 md:mt-32 ml-10 md:ml-0 scale-150" src={assets.header_img} alt="" />
-</div>
+   
 
-
+       {/*--right--*/}
+       <div className='md:w-1/2 relative'>
+       <img className='w-full md:absolute bottom-0 h-auto rounded-lg'  src={assets.header_img} alt="" />
+       </div>
     </div>
   )
 }

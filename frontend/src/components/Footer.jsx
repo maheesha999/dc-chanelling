@@ -8,9 +8,8 @@ const Footer = () => {
         {/*--left--*/}
         <div>
             <img className='mb-5 w-40' src={assets.logo} alt='' />
-            <p className='w-full md:w-2/3 text-gray-600 leading-6'>Experience seamless and reliable doctor channelling with our app. 
-            Book appointments with top specialists, access your medical history, and stay informed about your health—all from
-             the comfort of your home. Your health, our priority.</p>
+            <p className='w-full md:w-2/3 text-gray-600 leading-6'>Experience holistic healing with our Smart Ayurvedic Healthcare Platform. Book consultations with expert Ayurvedic doctors, explore authentic herbal products, and track your health effortlessly. 
+            Ayurveda, personalized and accessible for you.</p>
 
         </div>
 
