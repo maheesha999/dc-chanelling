@@ -1,10 +1,10 @@
-# 🌿 Mediora: ITPM Project 🌿
+# 🌿 Ayurwell: ITPM Project 🌿
 
 ### Team Members:
 
-- **Diluka Athukorala**
 - **Maheesha Liyanage**
 - **Nesha Dharmarathna**
+- **Diluka Athukorala**
 - **Dasun Dananjaya**
 
 ---
