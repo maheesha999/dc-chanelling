@@ -16,6 +16,7 @@ const AddDoctor = () => {
   const [degree, setDegree] = useState("");
   const [address1, setAddress1] = useState("");
   const [address2, setAddress2] = useState("");
+  const [available, setAvailable] = useState(true); // Default value
 
   const { backendUrl, aToken } = useContext(AdminContext);
 
@@ -37,15 +38,14 @@ const AddDoctor = () => {
       formData.append("about", about);
       formData.append("speciality", speciality);
       formData.append("degree", degree);
-      formData.append(
-        "address",
-        JSON.stringify({ line1: address1, line2: address2 })
-      );
+      formData.append("address",JSON.stringify({ line1: address1, line2: address2 }));
+      formData.append("available", available); 
 
       //console log formdata
       formData.forEach((value, key) => {
-        console.log("${key} : ${value}");
+        console.log(`${key} : ${value}`);
       });
+      
 
       const { data } = await axios.post(
         backendUrl + '/api/admin/add-doctor',
@@ -59,7 +59,7 @@ const AddDoctor = () => {
         toast.error(data.message)
       }
     } catch (error) {
-      
+       console.error("Error adding doctor:", error);
     }
   };
 
