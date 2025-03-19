@@ -1,10 +1,10 @@
-# 🌿 Haritha Plantations: ITPM Project 🌿
+# 🌿 Ayurwell: ITPM Project 🌿
 
 ### Team Members:
 
-- **Diluka Athukorala**
 - **Maheesha Liyanage**
 - **Nesha Dharmarathna**
+- **Diluka Athukorala**
 - **Dasun Dananjaya**
 
 ---
@@ -13,7 +13,7 @@
 ✨ We are excited to present our project! ✨
 
 
-🚀 **Haritha Plantations** is a comprehensive ITPM project developed by our dedicated team. We aim to revolutionize the plantation industry with our innovative solutions and user-friendly interface.
+Welcome to our **Smart Ayurvedic Healthcare Platform**, where you can effortlessly book appointments with experienced Ayurvedic doctors. Patients can log in, explore suitable doctor categories, and find the **nearest specialist** based on location. Our platform also offers an **herbal store**, allowing you to purchase authentic Ayurvedic products directly from our inventory. Stay connected with your health by tracking your appointments, while administrators efficiently manage doctor profiles, appointments, and patient records. Experience a seamless, traditional healing journey—**personalized, accessible, and powered by Ayurveda!** 🌿💚 
 
 
 
