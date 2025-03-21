@@ -16,7 +16,7 @@ const AddDoctor = () => {
   const [degree, setDegree] = useState("");
   const [address1, setAddress1] = useState("");
   const [address2, setAddress2] = useState("");
-  const [available, setAvailable] = useState(true); // Default value
+ // const [available, setAvailable] = useState(true); // Default value
 
   const { backendUrl, aToken } = useContext(AdminContext);
 
@@ -39,7 +39,7 @@ const AddDoctor = () => {
       formData.append("speciality", speciality);
       formData.append("degree", degree);
       formData.append("address",JSON.stringify({ line1: address1, line2: address2 }));
-      formData.append("available", available); 
+      //formData.append("available", available); 
 
       //console log formdata
       formData.forEach((value, key) => {
@@ -64,7 +64,7 @@ const AddDoctor = () => {
         setDegree('')
         setAbout('')
         setFees('')
-        setAvailable('')
+       // setAvailable('')
 
       }else{
         toast.error(data.message)

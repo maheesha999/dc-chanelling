@@ -7,7 +7,7 @@ import jwt from "jsonwebtoken";
 // API for adding doctor
 const addDoctor = async (req, res) => {
     try {
-        const { name, email, password, speciality, degree, experience, about, fees, address, available = true } = req.body;
+        const { name, email, password, speciality, degree, experience, about, fees, address} = req.body;
         const imagefile = req.file;
 
         // Checking for required fields
@@ -43,7 +43,7 @@ const addDoctor = async (req, res) => {
             degree,
             experience,
             about,
-            available: available === "true" || available === true, // Ensuring boolean format
+            //available: available === "true" || available === true, // Ensuring boolean format
             fees,
             address: JSON.parse(address),
             date: Date.now(),
