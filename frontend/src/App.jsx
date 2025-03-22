@@ -11,6 +11,11 @@ import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
+import Store from './pages/Store'
+import StorePay from './pages/StorePay'
+
+
+
 const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
@@ -20,6 +25,8 @@ const App = () => {
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:speciality' element={<Doctors />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/Store' element={<Store />} /> 
+        <Route path='/buynow/:id' element={<StorePay />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/my-profile' element={<MyProfile />} />
